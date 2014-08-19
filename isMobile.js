@@ -18,7 +18,7 @@
         android_tablet   = /Android/i,
         windows_phone    = /IEMobile/i,
         windows_tablet   = /(?=.*\bWindows\b)(?=.*\bARM\b)/i, // Match 'Windows' AND 'ARM'
-        other_blackberry = /BlackBerry/i,
+        other_blackberry = /(BlackBerry|BB10)/i,
         other_opera      = /Opera Mini/i,
         other_firefox    = /(?=.*\bFirefox\b)(?=.*\bMobile\b)/i, // Match 'Firefox' AND 'Mobile'
         seven_inch = new RegExp(
